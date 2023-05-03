@@ -2,6 +2,7 @@ import React from 'react'
 import HeroImage from '../assets/heroImage.png'
 import { BsFillArrowRightCircleFill } from 'react-icons/bs'
 import { Link } from 'react-scroll'
+import {TypeAnimation} from 'react-type-animation';
 
 
 const Home = () => {
@@ -17,6 +18,23 @@ const Home = () => {
 
 
                     </p>
+
+                    <TypeAnimation
+  sequence={[
+    // Same String at the start will only be typed once, initially
+    'I am a frontend developer',
+    2000,
+    'I am a designer',
+    2000,
+    'I am a gamer',
+    1000,
+    'I am a party person',
+    1000,
+  ]}
+  speed={50}
+  style={{ fontSize: '1em', color:'white'}}
+  repeat={Infinity}
+/>
                     <div>
                         <Link to='portfolio' smooth duration={500} className=' group text-white w-fit px-6 py-3 my-2 flex items-center 
                         rounded-md bg-gradient-to-r from-blue-900 to-purple-800 cursor-pointer hover:scale-105 duration-300'>
