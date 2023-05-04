@@ -9,12 +9,12 @@ const About = () => {
                         About
                     </p>
                 </div>
-                <p className='text-xl mt-20'>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse quibusdam officiis nostrum ullam veniam et quidem ut, vitae officia quis totam eligendi iure iste maxime labore deleniti. Culpa ducimus distinctio iure exercitationem quidem veniam, ab possimus quod, voluptates fuga ipsa aperiam sit atque nobis explicabo aut tempore? Reiciendis, consectetur ad.
+                <p className='text-xl mt-20 text-center'>
+                    I'm Misandu Perera, a friendly and dedicated full stack developer studying for my Bachelor's degree in IT. I'm passionate about learning new skills and am always ready to contribute to any project.
                 </p>
                 <br />
-                <p className='text-xl'>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero placeat consequatur eum eos nulla officia vel laborum pariatur consequuntur consectetur molestias atque laboriosam obcaecati, dignissimos, omnis nihil alias quasi praesentium asperiores in a recusandae cupiditate accusamus. Odio nesciunt libero officiis sit id? Rerum numquam architecto quia blanditiis inventore sequi laboriosam.
+                <p className='text-xl text-center'>
+                    I'm driven to succeed in both my personal and professional life. I take pride in my ability to overcome challenges and am eager to create meaningful work that I can be proud of.
                 </p>
             </div>
         </div>
